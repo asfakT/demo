@@ -10,9 +10,6 @@ using namespace std;
 #define lcm(a,b)  a*b/(gcd(a,b))
 #define  fast  ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 
-
-
-
 void solve()
 {
     //freopen("textnew.txt","r",stdin);
@@ -22,12 +19,7 @@ void solve()
     string s,t;
     cin>>n;
 
-    cout<<"1";
-    for(i=0;i<n;i++)
-    {
-         cout<<"0";
-    }
-    cout<<endl;
+    cout<<n;
 
 }
 int main()
